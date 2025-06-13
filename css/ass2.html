@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .inline-button {
+      display: inline;
+      border: 2px solid blue;
+      padding: 10px 20px;
+      background-color: lightblue;
+      margin-right: 10px;
+    }
+
+    .block-button {
+      display: block;
+      border: 2px solid green;
+      padding: 10px 20px;
+      background-color: lightgreen;
+      margin-right: 10px;
+    }
+
+    .inline-block-button {
+      display: inline-block;
+      border: 2px solid red;
+      padding: 10px 20px;
+      background-color: lightcoral;
+      margin-right: 10px;
+    }
+
+    .container {
+      background-color: #f0f0f0;
+      padding: 20px;
+      width: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Display Property Demo</h3>
+
+  <div class="container">
+    <span class="inline-button">Inline</span>
+    <span class="block-button">Block</span>
+    <span class="inline-block-button">Inline-Block</span>
+  </div>
+
+  <hr>
+
+
+  <h4>Difference between Inline and Block Elements</h4>
+  <p>
+    <strong>Inline elements</strong> do not start on a new line and only take up as much width as necessary. Examples: <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>.<br>
+    <strong>Block elements</strong> start on a new line and take up the full width available by default. Examples: <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>.<br>
+    <strong>Inline-block elements</strong> behave like inline elements in flow (they sit side by side) but accept width, height, padding, and margins like block elements.
+  </p>
+
+</body>
+</html>

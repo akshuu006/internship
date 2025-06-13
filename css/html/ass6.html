@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Display Example</title>
+</head>
+<body>
+    <h1>Sample Image</h1>
+    <img 
+        src="rich.jpg" 
+        alt="A description of the image" 
+        width="300" 
+        height="200"
+        onerror="this.style.display='none'; document.getElementById('fallback').style.display='block';"
+    >
+    <div id="fallback" style="display: none; color: red;">
+        Sorry, the image could not be displayed.
+    </div>
+</body>
+</html>
